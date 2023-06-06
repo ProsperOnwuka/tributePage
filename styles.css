@@ -1,0 +1,84 @@
+*{
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(233, 217, 196);
+    padding: 10px auto;
+    min-height: 2vh;
+    min-width: 50%;
+    width: 100%;
+}
+main{
+    display:block;
+    margin: 10px 30px;
+    padding: 20px auto;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color:brown;
+    margin-bottom: 10px;
+}
+p{
+    margin: 20px auto;
+    margin-top: 0;
+    text-align: center;
+    color: brown;
+    margin-bottom: 50px;
+}
+h3{
+    margin: 20px auto;
+    margin-top: 30px;
+    text-align: center;
+    color: brown;
+    margin-bottom: 10px;
+}
+h3#more-info{
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+a{
+    color: inherit;
+    cursor:pointer;
+}
+blockquote p{
+    color: black;
+    text-align: justify;
+    margin: 25px;
+    margin-bottom: 5px;
+}
+figcaption{
+    text-align: center;
+    margin: 5px auto;
+    margin-bottom: 40px;
+}
+ul > li{
+    margin: 20px auto;
+    text-align: justify;
+    list-style-type: disc;
+    margin-left: 0;
+    padding-right: 30px;
+    font-weight: 500;
+}
+cite{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 0;
+}
+img {
+    display: block;
+    margin: 10px auto 0;
+    width: 200px;
+    height: auto;
+    min-height: fit-content;
+    max-height: fit-content;
+    justify-content: center;
+}
+
+figcaption{
+    font-style: italic;
+    font-weight: 500;
+}
